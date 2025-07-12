@@ -20,10 +20,12 @@ public class CartItemEntity {
     @Min(1)
     private int quantity;
 
+    @Transient
     public boolean isInStock() {
         return product.isInStock();
     }
 
+    @Transient
     public BigDecimal getPrice() {
         return product.getPrice().multiply(BigDecimal.valueOf(quantity));
     }

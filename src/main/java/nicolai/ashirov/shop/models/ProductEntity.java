@@ -31,6 +31,7 @@ public class ProductEntity {
     @Min(0)
     private int stock;
 
+    @Transient
     public boolean isInStock() {
         return stock > 0;
     }
