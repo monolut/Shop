@@ -1,9 +1,9 @@
 package nicolai.ashirov.shop.enums;
 
-public enum Status {
+public enum OrderStatus {
     PAID,
     NEW,
     SHIPPED,
     DELIVERED,
-    CANCELLED,
+    CANCELLED
 }

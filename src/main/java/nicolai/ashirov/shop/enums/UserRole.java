@@ -1,6 +1,6 @@
 package nicolai.ashirov.shop.enums;
 
-public enum Role {
+public enum UserRole {
     ADMIN,
     USER
 }
